@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List JS</title>
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-light p-4">
+
+  <div class="container bg-white p-4 rounded shadow">
+    <h2 class="fw-bold mb-3">Todo List</h2>
+    <hr>
+
+    <!-- Input nueva tarea -->
+    <div class="mb-3">
+      <label for="nuevaTarea" class="form-label">Nueva tarea</label>
+      <div class="input-group">
+        <input type="text" id="nuevaTarea" class="form-control" placeholder="Escribe una nueva tarea">
+        <button id="btnAgregar" class="btn btn-success">Agregar</button>
+      </div>
+    </div>
+
+    <!-- Resumen -->
+    <div class="mb-3">
+      <p>Total: <span id="totalTareas" class="fw-bold">0</span></p>
+      <p>Realizadas: <span id="tareasRealizadas" class="fw-bold">0</span></p>
+    </div>
+
+    <!-- Lista de tareas -->
+    <div class="table-responsive">
+      <table class="table table-bordered align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>ID</th>
+            <th>Tarea</th>
+            <th>Completada</th>
+            <th>Eliminar</th>
+          </tr>
+        </thead>
+        <tbody id="listaTareas"></tbody>
+      </table>
+    </div>
+<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
