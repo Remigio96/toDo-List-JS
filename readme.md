@@ -76,7 +76,9 @@ Prototipo web de un To-Do List que permite **gestionar tareas pendientes** con o
 ---
 
 ## ⭐ Live preview
+<img width="1742" height="753" alt="image" src="https://github.com/user-attachments/assets/da392c02-581e-4b81-9bdf-a6e451931255" />
 
+https://remigio96.github.io/toDo-List-JS/
 ---
 
 
